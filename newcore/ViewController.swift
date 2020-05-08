@@ -22,7 +22,7 @@ class ViewController: UIViewController{
         //Services.shareInstance.clearData()
         var rData: [Any] = []
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
-        print("hiiii")
+        print("hii")
         //We need to create a context from this container
         let managedContext = appDelegate.persistentContainer.viewContext
         

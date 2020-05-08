@@ -82,7 +82,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "india") as! TableViewCell
+   dhruv     let cell:TableViewCell = tableView.dequeueReusableCell(withIdentifier: "india") as! TableViewCell
         cell.lblCollection.text = self.myMovies[indexPath.row].collectionName!
         cell.lblTrack.text = self.myMovies[indexPath.row].trackName!
         let reqUrl = URL(string: self.myMovies[indexPath.row].artworkUrl60!)

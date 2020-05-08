@@ -7,3 +7,17 @@
 //
 
 import Foundation
+import UIKit
+
+class ParseData : NSObject{
+    static let handler = ParseData()
+    
+    func fetchData(rData : [Any]){
+        print(rData)
+        
+       // print(movies.count)
+        
+        
+    }
+    
+}

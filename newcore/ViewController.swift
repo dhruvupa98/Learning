@@ -78,7 +78,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         //print(myMovies.count)
         return self.myMovies.count
-        print(self.myMoview.count)
+        print(self.myMovies.count)
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
